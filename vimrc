@@ -43,3 +43,11 @@ autocmd FileType gitcommit setlocal spell
 
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
+autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd BufWritePre *.js :%s/\s\+$//e
+autocmd BufWritePre *.R :%s/\s\+$//e
+autocmd BufWritePre *.sh :%s/\s\+$//e
+autocmd BufWritePre *.json :%s/\s\+$//e
+autocmd BufWritePre *.rst :%s/\s\+$//e
+autocmd BufWritePre *.md :%s/\s\+$//e
+autocmd BufWritePre Makefile :%s/\s\+$//e
