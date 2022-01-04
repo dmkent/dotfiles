@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/mnt/c/src/rome2rio-core/rome2rio.web'
+let g:netrw_dirhist_2='/mnt/c/src/rome2rio-core/rome2rio.web/Scripts/Common/Ads/AdSlots'
+let g:netrw_dirhist_3='/mnt/c/src/mobile-web/src/analytics/useLogExitCallback'
+let g:netrw_dirhist_4='/mnt/c/src/rome2rio-core/Data.Distribusion'
+let g:netrw_dirhist_5='/mnt/c/src/rome2rio-core/rome2rio.tests/Addlink'
+let g:netrw_dirhist_6='/mnt/c/src/rome2rio-core-release/Docker'

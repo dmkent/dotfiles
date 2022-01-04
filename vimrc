@@ -51,3 +51,5 @@ autocmd BufWritePre *.json :%s/\s\+$//e
 autocmd BufWritePre *.rst :%s/\s\+$//e
 autocmd BufWritePre *.md :%s/\s\+$//e
 autocmd BufWritePre Makefile :%s/\s\+$//e
+autocmd FileType cs setlocal nofixendofline
+autocmd FileType xml setlocal nofixendofline
